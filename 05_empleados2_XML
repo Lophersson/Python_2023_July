@@ -1,0 +1,59 @@
+<empleados>
+  <empleado>
+    <nombre>Julia</nombre>
+    <apellido>Otero</apellido>
+    <departamento>Comunicacion</departamento>
+    <salario>5000</salario>
+    <fecha_nac>07/05/1983</fecha_nac>
+  </empleado>
+ 
+  <empleado>
+    <nombre>Pablo</nombre>
+    <apellido>Coches</apellido>
+    <departamento>Mantenimiento</departamento>
+    <salario>1200</salario>
+    <fecha_nac>13/07/1972</fecha_nac>
+  </empleado>
+
+ <empleado>
+    <nombre>Cira</nombre>
+    <apellido>Sánchez</apellido>
+    <departamento>Ventas</departamento>
+    <salario>6000</salario>
+    <fecha_nac>01/11/1987</fecha_nac>
+  </empleado>
+
+ 
+ <empleado>
+    <nombre>Mariano</nombre>
+    <apellido>Casas</apellido>
+    <departamento>Marketing</departamento>
+    <salario>3000</salario>
+    <fecha_nac>31/05/1989</fecha_nac>
+  </empleado>
+
+  <empleado>
+    <nombre>Citripio</nombre>
+    <apellido>Pascual</apellido>
+    <departamento>Mantenimiento</departamento>
+    <salario>1200</salario>
+    <fecha_nac>08/06/1996</fecha_nac>
+  </empleado>
+
+  <empleado>
+    <nombre>Olivia</nombre>
+    <apellido>Newton</apellido>
+    <departamento>Contabilidad</departamento>
+    <salario>3000</salario>
+    <fecha_nac>02/07/1984</fecha_nac>
+  </empleado>
+
+    <empleado>
+    <nombre>Micaela</nombre>
+    <apellido>Rojas</apellido>
+    <departamento>Ventas</departamento>
+    <salario>1500</salario>
+    <fecha_nac>03/07/1978</fecha_nac>
+  </empleado>
+
+</empleados>
