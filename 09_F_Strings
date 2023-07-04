@@ -1,0 +1,9 @@
+#Ejemplo f-strings
+def saludar(nombre):
+    mensaje = f"Hola, {nombre}! ¡Bienvenido!"
+    return mensaje
+
+# Ejemplo de uso
+nombre_usuario = "Pedro"
+saludo = saludar(nombre_usuario)
+print(saludo)
