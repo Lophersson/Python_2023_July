@@ -23,3 +23,15 @@ empleados = documento.xpath("//empleado[departamento!='Mantenimiento']")
 for empleado in empleados:
     nombre = empleado.find("nombre").text
     print(f"Empleado: {nombre}")
+
+STEP_03
+#XPath en Python. Obtener los empleados que no sean del departamento de mantenimiento
+from lxml import etree
+
+# Parsear el archivo XML
+documento = etree.parse("empleados.xml")
+ 
+empleados = documento.xpath("//empleado[departamento!='Mantenimiento']")
+for empleado in empleados:
+    nombre = empleado.find("nombre").text
+    print(f"Empleado: {nombre}")
