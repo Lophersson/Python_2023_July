@@ -13,3 +13,17 @@ for empleado in empleados:
     nombre = empleado.find("nombre").text
     apellido = empleado.find("apellido").text
     print(f"Empleado: {nombre} {apellido}")
+
+STEP_03
+#XPath en Python. Obtener los empleados cuyo nombre comienza con la letra "P".
+from lxml import etree
+
+# Parsear el archivo XML
+documento = etree.parse("empleados.xml")
+
+#Obtener los empleados cuyo nombre comienza con la letra "P".
+empleados = documento.xpath("//empleado[starts-with(nombre, 'P')]")
+for empleado in empleados:
+    nombre = empleado.find("nombre").text
+    apellido = empleado.find("apellido").text
+    print(f"Empleado: {nombre} {apellido}")
