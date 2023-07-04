@@ -1,0 +1,4 @@
+n=[12,23,14,2,7]
+l=['a','d','x','v','z']
+for n,l in zip(n,l):
+    print(n,l)
