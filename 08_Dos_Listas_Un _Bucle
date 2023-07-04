@@ -1,4 +1,16 @@
+SENCILLO:
 n=[12,23,14,2,7]
 l=['a','d','x','v','z']
 for n,l in zip(n,l):
     print(n,l)
+
+
+EXTENDIDO:
+numeros=[12,23,14,2,7]
+letras=['a','d','x','v','z']
+for n,l in zip(numeros,letras):
+   print(n,l)
+    
+    
+nueva_lista=list(zip(numeros,letras))
+print(nueva_lista)
