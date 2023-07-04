@@ -1,3 +1,4 @@
+STEP_01
 #XPath en Python. Seleccionar todos los empleados que NO pertenezcan al departamento "Mantenimiento".
 
 from lxml import etree
@@ -11,3 +12,14 @@ for empleado in empleados:
     nombre = empleado.find("nombre").text
     apellidos = empleado.find("apellidos").text
     print(f"Empleado: {nombre} {apellidos}")
+
+STEP_02
+from lxml import etree
+
+# Parsear el archivo XML
+documento = etree.parse("empleados.xml")
+ 
+empleados = documento.xpath("//empleado[departamento!='Mantenimiento']")
+for empleado in empleados:
+    nombre = empleado.find("nombre").text
+    print(f"Empleado: {nombre}")
