@@ -1,0 +1,10 @@
+#XPath en Python. #Obtener el salario de los empleados que pertenecen al departamento de "Ventas".
+from lxml import etree
+
+# Parsear el archivo XML
+documento = etree.parse("empleados.xml")
+
+#Obtener el salario de los empleados que pertenecen al departamento de "Ventas".
+salarios = documento.xpath("//empleado[departamento='Ventas']/salario/text()")
+for salario in salarios:
+    print(salario)
