@@ -1,0 +1,13 @@
+#XPath en Python. Seleccionar el tercer empleado
+
+from lxml import etree
+
+# Parsear el archivo XML
+documento = etree.parse("empleados.xml")
+
+#seleccionar el tercer empleado
+empleados = documento.xpath("//empleado[position() = 3]")
+for empleado in empleados:
+    nombre = empleado.find("nombre").text
+    apellidos = empleado.find("apellidos").text
+    print(f"Empleado: {nombre} {apellidos}")
