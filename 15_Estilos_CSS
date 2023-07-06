@@ -1,1 +1,21 @@
 https://www.mclibre.org/consultar/xml/lecciones/xml-css.html
+
+
+empleados#titulo {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+}
+
+empleado#_1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgb(0, 0, 0);
+}
+
+.caja {
+  position: relative;
+  display: inline-block;
+}
+
