@@ -1,0 +1,8 @@
+<empleado>
+        <nombre>Monica</nombre>
+        <apellidos>Fullera</apellidos>
+        <departamento>Administracion</departamento>
+        <salario>1900</salario>
+        <fecha_nac>03/09/1983</fecha_nac>
+        <PathImagen></PathImagen>
+    </empleado>
