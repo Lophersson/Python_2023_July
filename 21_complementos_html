@@ -1,3 +1,16 @@
+INICIO:
+<!doctype html>
+<html lang="en">
+<head>
+<body>
+<br>
+    <div class="container">
+    <h1></h1>
+    </div>
+    <br>
+<div class="content">
+<div class="container">
+
 BOTON ENVIAR-VER FICHA:
 <input type="submit" value="Ver Ficha"/>
 
