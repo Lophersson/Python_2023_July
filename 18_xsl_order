@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <xsl:output encoding="iso-8859-1" version="1.0"/>
+    <xsl:template match="/">
+      <xsl:for-each select="//poema">
+        <xsl:sort order="ascending" data-type="number" select="@añodepublicacion"/> (1)
+        <xsl:apply-templates/>
+      </xsl:for-each>
+    </xsl:template>
+    <xsl:template match="autor">
+        <br/>
+        <h4>
+            <xsl:apply-templates/>
+        </h4>
+    </xsl:template>
+    <xsl:template match="nombre">
+            <xsl:apply-templates/>
+            <xsl:text> </xsl:text>
+    </xsl:template>
+    <xsl:template match="apellido">
+            <xsl:apply-templates/>
+    </xsl:template>
+    <xsl:template match="titulo">
+        <h2>
+            <xsl:apply-templates/>
+        </h2>
+        <p>Año de publicación: 
+            <xsl:value-of select="parent::poema/@añodepublicacion"/>
+        </p>
+    </xsl:template>
+    <xsl:template match="estrofa">
+        <p>
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
+    <xsl:template match="verso">
+            <xsl:apply-templates/>
+        <br/>
+    </xsl:template>
+    <xsl:template match="poema">
+            <xsl:apply-templates/>
+    </xsl:template>
+</xsl:stylesheet>
