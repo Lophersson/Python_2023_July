@@ -1,0 +1,34 @@
+https://www.freecodecamp.org/espanol/news/etiqueta-select-de-html-como-hacer-un-menu-desplegable-o-lista-combinada/
+
+<form action="#">
+      <label for="lang">Lenguaje</label>
+      <select name="lenguajes" id="lang">
+        <option value="javascript">JavaScript</option>
+        <option value="php">PHP</option>
+        <option value="java">Java</option>
+        <option value="golang">Golang</option>
+        <option value="python">Python</option>
+        <option value="c#">C#</option>
+        <option value="C++">C++</option>
+        <option value="erlang">Erlang</option>
+      </select>
+      <input type="submit" value="Enviar" />
+</form>
+
+
+CSS:
+body {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 0 auto;
+     height: 100vh;
+     background-color: #f1f1f1;
+   }
+
+input {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 0 auto;
+   }
