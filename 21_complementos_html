@@ -1,0 +1,13 @@
+BOTON ENVIAR-VER FICHA:
+<input type="submit" value="Ver Ficha"/>
+
+CAJAS:
+<div class="container">
+    <h3 class="p-3 text-primary">TEXTO PRIMARIO</h3>
+    <p class="p-5 bg-info text-warning">TEXTO2</p>
+    <p class="p-4 bg-success text-warning">TEXTO3</p>
+    <p class="p-3 bg-primary text-warning">TEXTO4</p>
+    <p class="p-2 bg-secondary text-warning">TEXTO5</p>
+    <p class="p-1 bg-danger text-white">TEXTO6</p>
+    <p class="p-0 bg-primary text-warning">TEXTO7</p>
+    </div>
