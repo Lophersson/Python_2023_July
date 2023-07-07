@@ -1,0 +1,33 @@
+<xsl:template
+name="name"
+match="pattern"
+mode="mode"
+priority="number">
+
+<!-- Content:(<xsl:param>*,template) -->
+
+</xsl:template>
+
+OTHER THING
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+<xsl:template match="/">
+  <html>
+    <head>
+      <title>Lista de empleados</title>
+    </head>
+    <body>
+      <h1>Lista de empleados</h1>
+      <ul>
+        <xsl:for-each select="empleados/empleado">
+          <li>
+            <xsl:value-of select="nombre"/> - <xsl:value-of select="puesto"/>
+          </li>
+        </xsl:for-each>
+      </ul>
+    </body>
+  </html>
+</xsl:template>
+
+</xsl:stylesheet>
