@@ -11,3 +11,6 @@ CAJAS:
     <p class="p-1 bg-danger text-white">TEXTO6</p>
     <p class="p-0 bg-primary text-warning">TEXTO7</p>
     </div>
+
+SPAN:
+<span class="mb-5 inline-block bg-teal-400" style="color: rgb(248, 16, 16);"></span>
