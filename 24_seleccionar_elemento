@@ -1,0 +1,32 @@
+Para seleccionar un elemento de una lista desplegable de HTML y ver su ficha al pulsar un botón, puedes seguir los siguientes pasos:
+
+    Crear una lista desplegable en tu HTML utilizando la etiqueta <select> y opciones dentro de la etiqueta <option>. Cada opción debe tener un valor único y un texto visible para el usuario. Por ejemplo:
+
+   <select id="listaDesplegable">
+      <option value="1">Opción 1</option>
+      <option value="2">Opción 2</option>
+      <option value="3">Opción 3</option>
+   </select>
+
+    Agregar un botón en tu HTML utilizando la etiqueta <button>. Por ejemplo:
+
+   <button id="verFicha">Ver Ficha</button>
+
+    Agregar un evento de clic al botón utilizando JavaScript para que se ejecute una función cuando se seleccione un elemento de la lista y se haga clic en el botón. Por ejemplo:
+
+   document.getElementById("verFicha").addEventListener("click", function() {
+      var listaDesplegable = document.getElementById("listaDesplegable");
+      var elementoSeleccionado = listaDesplegable.options[listaDesplegable.selectedIndex].value;
+
+      // Ahora puedes hacer algo con el valor seleccionado
+      // Por ejemplo, puedes redirigir a una página o mostrar información en la misma página
+
+      // Ejemplo de redirección a una página con el valor seleccionado en la URL
+      window.location.href = "ficha.html?id=" + elementoSeleccionado;
+   });
+
+    En la función del evento de clic, obtén el valor seleccionado de la lista desplegable utilizando listaDesplegable.selectedIndex y listaDesplegable.options[listaDesplegable.selectedIndex].value.
+
+    Puedes hacer algo con el valor seleccionado, como redirigir a una página con el valor seleccionado en la URL o mostrar información en la misma página. En el ejemplo, se redirige a una página llamada "ficha.html" con el valor seleccionado en la URL.
+
+Recuerda ajustar los IDs de los elementos HTML y la lógica en JavaScript de acuerdo a tus necesidades.
