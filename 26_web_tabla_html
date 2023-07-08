@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<style>
+    .success {color: #ffffff;}
+    </style>
+<link href="stylenew.css" rel="stylesheet">
+<link rel="stylesheet" href="estilo2.css">
+<link rel="stylesheet" href="estilo3.css">
+<link rel="stylesheet" href="estilo4.css">
+<link rel="stylesheet" href="estilo5.css">
+<title>Contactos</title>
+<script nonce="7bc54a42-741d-4e82-8a41-91eda672760c">(function(w,d){!function(f,g,h,i){f[h]=f[h]||{};f[h].executed=[];f.zaraz={deferred:[],listeners:[]};f.zaraz.q=[];f.zaraz._f=function(j){return function(){var k=Array.prototype.slice.call(arguments);f.zaraz.q.push({m:j,a:k})}};for(const l of["track","set","debug"])f.zaraz[l]=f.zaraz._f(l);f.zaraz.init=()=>{var m=g.getElementsByTagName(i)[0],n=g.createElement(i),o=g.getElementsByTagName("title")[0];o&&(f[h].t=g.getElementsByTagName("title")[0].text);f[h].x=Math.random();f[h].w=f.screen.width;f[h].h=f.screen.height;f[h].j=f.innerHeight;f[h].e=f.innerWidth;f[h].l=f.location.href;f[h].r=g.referrer;f[h].k=f.screen.colorDepth;f[h].n=g.characterSet;f[h].o=(new Date).getTimezoneOffset();if(f.dataLayer)for(const s of Object.entries(Object.entries(dataLayer).reduce(((t,u)=>({...t[1],...u[1]})),{})))zaraz.set(s[0],s[1],{scope:"page"});f[h].q=[];for(;f.zaraz.q.length;){const v=f.zaraz.q.shift();f[h].q.push(v)}n.defer=!0;for(const w of[localStorage,sessionStorage])Object.keys(w||{}).filter((y=>y.startsWith("_zaraz_"))).forEach((x=>{try{f[h]["z_"+x.slice(7)]=JSON.parse(w.getItem(x))}catch{f[h]["z_"+x.slice(7)]=w.getItem(x)}}));n.referrerPolicy="origin";n.src="/cdn-cgi/zaraz/s.js?z="+btoa(encodeURIComponent(JSON.stringify(f[h])));m.parentNode.insertBefore(n,m)};["complete","interactive"].includes(g.readyState)?zaraz.init():f.addEventListener("DOMContentLoaded",zaraz.init)}(w,d,"zarazData","script");})(window,document);</script></head>
+<body>
+<br>
+<h2><center><img src="gs.jpg" height="75" width="1280"></center></h2>
+<br>
+<div class="centrar">
+<h2 text-align= "center">MIS CONTACTOS</h2>
+<label for="lang" align-items="center" style="color: rgb(219, 219, 219);">Elija Contacto Para Ver Su Ficha</label>
+<form action="#" align-items="center"></form>
+<style>.centrar {text-align: center;}</style>
+
+<div class="centrar">
+    <select name="contactos" id="contactos">
+    <br>
+    <option value="Maria">Maria</option>
+    <option value="Ana">Ana</option>
+    <option value="Lidia">Lidia</option>
+    <option value="Bernal">Bernal</option>
+    <option value="David">David</option>
+    <option value="Cristina">Cristina</option>
+    <option value="Genesis">Genesis</option>
+    <option value="Eduardo">Eduardo</option>
+    <option value="Angel">Angel</option>
+    <option value="Julio">Julio</option>
+    <option value="Jose">Jose</option>
+    </select>
+    <div>
+    <br>
+    </div>
+    <form><button type="submit" formaction="web_foto7.html">ver</button></form>
+</form>
+<br>
+<title>Tabla con Fotos y Botones</title>
+  <style>
+    table {
+      width: 100%;
+    }
+    td {
+      text-align: center;
+    }
+  </style>
+  <table>
+    <tr>
+      <td>
+        <img src="coche1.jpg" height="180" width="320" align="center" alt="MINI" class="centrar-imagen">
+        <br>
+        <button type="button">Botón 1</button>
+      </td>
+      <br>
+      <td>
+        <img src="coche2.jpg" height="180" width="320" align="center" alt="MINI" class="centrar-imagen">
+        <br>
+        <button type="button">Botón 2</button>
+      </td>
+      <br>
+      <td>
+        <img src="coche1.jpg" height="180" width="320" align="center" alt="MINI" class="centrar-imagen">
+        <br>
+        <button type="button">Botón 3</button>
+      </td>
+      <br>
+    </tr>
+    <tr>
+      <td>
+        <img src="coche2.jpg" height="180" width="320" align="center" alt="MINI" class="centrar-imagen">
+        <br>
+        <button type="button">Botón 4</button>
+      </td>
+      <br>
+      <td>
+        <img src="coche1.jpg" height="180" width="320" align="center" alt="MINI" class="centrar-imagen">
+        <br>
+        <button type="button">Botón 5</button>
+      </td>
+      <br>
+      <td>
+        <img src="coche2.jpg" height="180" width="320" align="center" alt="MINI" class="centrar-imagen">
+        <br>
+        <button type="button">Botón 6</button>
+      </td>
+        <br>
+    </tr>
+  </table>
+  <br>
+<div><br></div>
+<style>.centrar-imagen {display: block; margin-left: auto; margin-right: auto;}
+</style>
+<img src="gs.jpg" height="75" width="1280" align="center" alt="gs" class="centrar-imagen">
+<br>
+<center><font color="white">GRADIENT, S.L., TODOS LOS DERECHOS RESERVADOS</font></center>
+<br>
+</body>
+</html>
