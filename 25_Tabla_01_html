@@ -1,0 +1,16 @@
+<div class="container"></div>
+<table>
+  <tr>
+    <th>Coches Disponibles</th>
+    <th>Elija Coche</th>
+  </tr>
+  <tr>
+    <td><img src="coche1.jpg" height="180" width="320" align="center" alt="Mini_Cooper" class="centrar-imagen"></td>
+    <td>Mini Cooper</td>
+  </tr>
+  <tr>
+    <td><img src="coche2.jpg" height="180" width="320" align="center" alt="Mini_Clubman" class="centrar-imagen"></td>
+    <td>Mini Clubman</td>
+  </tr>
+  </table>
+</div>
