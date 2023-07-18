@@ -1,0 +1,16 @@
+STEP_01
+class Factorial:
+    def __init__(self, numero):
+        self.num = numero
+       
+    def factorial(self):
+        acum = 1
+        for i in range(1, self.num+1):
+            acum = i*acum        
+        return acum
+
+x = int(input("Valor:"))
+obj = Factorial (x)
+print(obj.factorial())
+
+STEP_02
