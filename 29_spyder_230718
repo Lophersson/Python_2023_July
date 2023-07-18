@@ -40,4 +40,20 @@ objeto1 = Suma(lista)
 resultado = objeto1.suma_pares()
 print (resultado)
 
+STEP_04
+nums = [1, 2, 3, 4, 5]
+for num in nums:
+    if num % 2 == 0:
+        print(f"{num} es par")
+    else:
+        print(f"{num} es impar")
+
+count = 0
+while count < 5:
+    if count == 3:
+        print("Llegamos a 3!")
+        break
+    print(f"El contador es {count}")
+    count += 1
+
 
