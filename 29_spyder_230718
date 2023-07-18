@@ -22,3 +22,22 @@ def suma_pares(lista):
 lista = [1,2,3,4,5,6,7,8,9]
 x = suma_pares (lista)
 print (x)
+
+STEP_03
+class Suma:
+    def __init__(self, numeros):
+        self.numeros = numeros
+        
+    def suma_pares(self):
+            suma = 0
+            for e in self.numeros:
+                if e%2 == 0:
+                    suma = suma + e
+            return suma
+        
+lista = [1,2,3,4,5,6,7,8,9]
+objeto1 = Suma(lista)
+resultado = objeto1.suma_pares()
+print (resultado)
+
+
