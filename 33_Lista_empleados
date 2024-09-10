@@ -1,0 +1,27 @@
+import pandas as pd
+import random
+
+# Lista de emojis para randomización
+lista = ["👶","👧","🧒","👦","👩","🧑","👨","👩‍🦱","👨‍🦱","👩‍🦰","👨‍🦰","👱‍♂️","👱‍♀️","👨‍🦲","👩‍🦲","🧔","👵","🧓","👴","👲","👳‍♀️","👳‍♂️","👸","🤴"]
+
+# Simulamos los datos que normalmente provendrían de la base de datos
+data = {
+    'nombre': ['Ana', 'Luis', 'Carlos', 'María', 'José', 'Laura', 'Juan', 'Lucía'],
+    'puesto': ['Manager', 'Analista', 'Desarrollador', 'HR', 'Finance', 'IT', 'Sales', 'Marketing'],
+    'salario': [50000, 45000, 60000, 40000, 52000, 48000, 62000, 58000]
+}
+
+# Crear un DataFrame simulando el resultado de la consulta SQL
+df = pd.DataFrame(data)
+
+# Conversión de salario en euros a dólares (suponiendo una tasa de cambio de 1.07)
+df["salario_en_$"] = df["salario"].map(lambda x: x * 1.07)
+
+# Agregar emoji aleatorio al nombre
+df["nombre"] = df["nombre"].map(lambda x: x + " " + random.choice(lista))
+
+# Exportar los resultados a un archivo Excel
+df.to_excel("df_simulado.xlsx", index=False)
+
+# Mostrar las primeras 21 filas (en este caso solo hay 8 filas)
+print(df.head(21))
